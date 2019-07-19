@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package java_loop;
 
-/**
- *
- * @author nakibamanturzo
- */
+import java.util.Scanner;
+
 public class alphabet {
-    
+    public static void main(String[] args) {
+        char c;
+        System.out.printf("Enter a charecter");
+        Scanner o=new Scanner(System.in);
+        c=o.next().charAt(0);
+        //0-9;A-Z;a-z;$#@
+        //Number;Alphabet;Special charecter
+    }
 }
