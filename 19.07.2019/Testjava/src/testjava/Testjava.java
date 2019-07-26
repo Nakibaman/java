@@ -17,6 +17,7 @@ public class Testjava {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("HI");
+        File o=new File("\\\\Mac\\Home\\Documents\\java\\19.07.2019\\Testjava\\src\\testjava\\1.txt");
     }
     
 }
