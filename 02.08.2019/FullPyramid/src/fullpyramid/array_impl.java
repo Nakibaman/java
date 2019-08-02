@@ -1,18 +1,19 @@
 
 package fullpyramid;
 
+import java.util.Scanner;
+
 
 public class array_impl {
     public static void main(String[] args) {
         int a[];
         a=new int[3];
         int i;
-        
-        
-        a[0]=123;
-        a[1]=324;
-        a[2]=678;
+        Scanner ob=new Scanner(System.in);
         for(i=0;i<3;i++)
+            a[i]=ob.nextInt();
+        
+        for(i=2;i>=0;i--)
         System.out.println(a[i]);
         
     }
