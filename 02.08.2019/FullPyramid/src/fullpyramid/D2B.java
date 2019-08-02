@@ -3,7 +3,7 @@ package fullpyramid;
 
 public class D2B {
     public static void main(String[] args) {
-        int n=19,r;
+        int n=190000,r;
         
         while(n!=0)
         {
