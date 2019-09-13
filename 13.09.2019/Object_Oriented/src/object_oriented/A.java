@@ -13,4 +13,10 @@ public class A {
         age=c;
         cont_number=d;
     }
+    public void show_info()
+    {
+        System.out.println(id);
+        System.out.println(name);
+        System.out.println(age);
+    }
 }
