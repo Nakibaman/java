@@ -5,17 +5,14 @@
  */
 package interface_demo;
 
-/**
- *
- * @author nakibamanturzo
- */
 public class Interface_demo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        A ob=new A();
+        ob.getab(12,6);
+        System.out.println(ob.plus());
+        System.out.println(ob.minus());
+        System.out.println(ob.div());
     }
     
 }
