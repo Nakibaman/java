@@ -3,17 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package interface_demo;
+package multiple.inheritence;
 
-public class Interface_demo{
+/**
+ *
+ * @author nakibamanturzo
+ */
+public class MultipleInheritence {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
+      A ob=new A();
+      ob.plus();
+      ob.div();
+      ob.minus();
         
-        B ob=new A();
-        ob.getab(12,6);
-        System.out.println(ob.minus());
-        System.out.println(ob.plus());
-        System.out.println(ob.div());
     }
     
 }
