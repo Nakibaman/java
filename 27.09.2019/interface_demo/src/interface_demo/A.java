@@ -9,7 +9,7 @@ package interface_demo;
  *
  * @author nakibamanturzo
  */
-public class A {
+public class A implements B,C{
     int a,b;
     public void getab(int x,int y)
     {
