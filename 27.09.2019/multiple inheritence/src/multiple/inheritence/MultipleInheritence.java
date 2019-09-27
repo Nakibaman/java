@@ -19,6 +19,10 @@ public class MultipleInheritence {
       ob.plus();
       ob.div();
       ob.minus();
+      ob.cosf();
+      ob.sinf();
+      ob.tanf();
+      ob.cotf();
         
     }
     

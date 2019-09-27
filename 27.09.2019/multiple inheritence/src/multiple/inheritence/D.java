@@ -9,9 +9,9 @@ package multiple.inheritence;
  *
  * @author nakibamanturzo
  */
-public class C extends E{
-    public void plus()
+public interface D {
+    default public void sinf()
     {
-        System.out.println("Plus");
+        System.out.println("SIN");
     }
 }

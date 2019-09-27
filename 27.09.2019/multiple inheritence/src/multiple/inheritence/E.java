@@ -9,9 +9,9 @@ package multiple.inheritence;
  *
  * @author nakibamanturzo
  */
-public class C extends E{
-    public void plus()
+public class E implements F,G{
+    public void cosf()
     {
-        System.out.println("Plus");
+        System.out.println("COS");
     }
 }

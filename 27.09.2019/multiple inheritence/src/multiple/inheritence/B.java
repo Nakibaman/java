@@ -9,7 +9,7 @@ package multiple.inheritence;
  *
  * @author nakibamanturzo
  */
-public interface B {
+public interface B extends D{
    default public void minus()
    {
        System.out.println("Minus"); 

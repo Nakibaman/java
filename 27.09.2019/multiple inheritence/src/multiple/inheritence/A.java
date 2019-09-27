@@ -9,7 +9,7 @@ package multiple.inheritence;
  *
  * @author nakibamanturzo
  */
-public class A implements B,C{
+public class A extends C implements B{
     public void div()
     {
         System.out.println("Div");

@@ -5,13 +5,9 @@
  */
 package multiple.inheritence;
 
-/**
- *
- * @author nakibamanturzo
- */
-public class C extends E{
-    public void plus()
+public interface F {
+    default public void tanf()
     {
-        System.out.println("Plus");
+        System.out.println("TAN");
     }
 }
